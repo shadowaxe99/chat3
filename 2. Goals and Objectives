@@ -1,0 +1,26 @@
+// File: 2. Goals and Objectives
+
+const goals = [
+  {
+    goal: "To simplify the code writing process for users who are not proficient programmers.",
+    objectives: [
+      "Allow users to describe their programming needs using natural language inputs.",
+      "Generate accurate and efficient code snippets based on the user's instructions.",
+      "Support multiple programming languages to cater to a wider range of users.",
+      "Provide helpful error messages when the input cannot be translated into code.",
+      "Seamlessly integrate with popular code editors and development environments.",
+      "Maintain a history of user interactions and provide version control for generated code snippets."
+    ]
+  }
+];
+
+// Print goals and objectives
+console.log("2. Goals and Objectives\n");
+goals.forEach((goal, index) => {
+  console.log(`- Goal ${index + 1}: ${goal.goal}`);
+  console.log("  Objectives:");
+  goal.objectives.forEach((objective, index) => {
+    console.log(`  - Objective ${index + 1}: ${objective}`);
+  });
+  console.log();
+});

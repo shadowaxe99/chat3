@@ -1,0 +1,11 @@
+// 4. Non-functional Requirements
+
+const nonFunctionalRequirements = {
+  performance: "The Chat2Code tool should provide fast and responsive code generation, with low latency to ensure a smooth user experience.",
+  security: "The tool should prioritize the security of user data and ensure that code generation does not introduce vulnerabilities.",
+  usability: "The user interface should be intuitive and user-friendly, with clear instructions and guidance for input.",
+  compatibility: "The tool should be compatible with a variety of operating systems and web browsers to maximize user accessibility.",
+  accessibility: "The user interface should adhere to accessibility standards, providing options for users with visual or auditory impairments."
+};
+
+// End of 4. Non-functional Requirements

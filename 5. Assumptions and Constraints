@@ -1,0 +1,13 @@
+// File: 5. Assumptions and Constraints
+
+// Assumptions
+const assumption1 = "Users have a basic understanding of programming concepts and logic.";
+const assumption2 = "The availability and reliability of natural language processing libraries or APIs.";
+
+// Constraints
+const constraint1 = "Limited development resources or budget.";
+const constraint2 = "The tool may not be able to generate complex or highly domain-specific code snippets.";
+
+// Export assumptions and constraints
+export const assumptions = [assumption1, assumption2];
+export const constraints = [constraint1, constraint2];
